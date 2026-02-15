@@ -50,4 +50,5 @@ def get_geo_top_artists():
 def get_geo_top_tracks():
     return request_geo_lastfm("geo.getTopTracks", 'brazil')
 
-print(get_geo_top_tracks())
+# test:
+# print(get_geo_top_tracks())

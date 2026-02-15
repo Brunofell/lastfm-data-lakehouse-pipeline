@@ -1,0 +1,1 @@
+Construir um pipeline automatizado que coleta dados da API do Last.fm, armazena em um Data Lake na AWS e transforma para análise analítica.
