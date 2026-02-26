@@ -37,8 +37,8 @@ def read_json_from_s3(key):
     return data
 
 
-files = list_files("raw/lastfm/get_chart_top_tracks/2026/02/15/") # s3://bruno-lastfm-datalake/raw/lastfm/get_chart_top_tracks/2026/02/15/
-if(len(files) > 0):
-    key = files[0]
-    data = read_json_from_s3(key)
-    print(data)
+# files = list_files("raw/lastfm/get_chart_top_tracks/2026/02/15/") # s3://bruno-lastfm-datalake/raw/lastfm/get_chart_top_tracks/2026/02/15/
+# if(len(files) > 0):
+#     key = files[0]
+#     data = read_json_from_s3(key)
+#     print(data)
