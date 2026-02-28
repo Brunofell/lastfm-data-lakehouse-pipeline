@@ -34,17 +34,24 @@ df_chart_top_artists = pd.DataFrame(data2_list)
 df_geo_top_artists = pd.DataFrame(data3_list)
 df_geo_top_tracks = pd.DataFrame(data4_list)
 
-# print(df_chart_top_tracks.head())
-# print(df_chart_top_artists.head())
-# print(df_geo_top_artists.head())
-# print(df_geo_top_tracks.head())
-
 # pro parquet funcionar baixar isso: pip install pyarrow
 
-
 df_chart_top_tracks.to_parquet(
-    "chart_top_tracks.parquet",
+    "data/chart_top_tracks.parquet",
     index=False
     )
 
-# criar os outros e passar pro s3 bronze
+df_chart_top_artists.to_parquet(
+    "data/chart_top_artists.parquet",
+    index=False
+    )
+
+df_geo_top_artists.to_parquet(
+    "data/geo_top_artists.parquet",
+    index=False
+    )
+
+df_geo_top_tracks.to_parquet(
+    "data/geo_top_tracks.parquet",
+    index=False
+    )
