@@ -17,15 +17,6 @@ as ingestion, processing, orchestration, and analytics.
 -   Query Engine: AWS Athena
 -   Database: PostgreSQL (Airflow metadata)
 
-## Project Structure
-
-    lastfm-data-lakehouse-pipeline/
-    ├── dags/
-    ├── docker-compose.yaml
-    ├── scripts/
-    ├── notebooks/
-    └── README.md
-
 ## Data Layers
 
 ### Bronze
