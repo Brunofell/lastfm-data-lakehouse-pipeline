@@ -197,5 +197,5 @@ Build a professional portfolio project
 
 ## Author
 
-Bruno Feliciano Martins Junior Frontend Developer \| Aspiring Data
+Bruno Feliciano Martins Software Developer \| Aspiring Data
 Engineer
